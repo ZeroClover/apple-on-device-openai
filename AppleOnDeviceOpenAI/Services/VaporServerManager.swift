@@ -227,7 +227,7 @@ class VaporServerManager: ObservableObject {
                         previousMessages)
 
                     // Create transcript with conversation history
-                    let transcript = Transcript(entries: transcriptEntries)
+                    let transcript = Transcript(transcriptEntries)
 
                     // Create new session with the conversation transcript
                     print("DEBUG: Creating language model session")
